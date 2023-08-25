@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500&family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="cards">
+      <div class="left card">
+        <h1 class="top-text">Your Result</h1>
+        <div class="circle">
+          <h1 class="circle-top">76</h1>
+          <h1 class="circle-bottom">out of 100</h1>
+        </div>
+        <div class="bottom-text">
+          <h1 class="bottom-title">Great</h1>
+          <h2 class="bottom-body">
+            You scored higher than 65% of the people who have taken these tests.
+          </h2>
+        </div>
+      </div>
+      <div class="right card">
+        <h1 class="summary">Summary</h1>
+        <div class="infos">
+          <div class="container reaction">
+            <div class="left-container">
+              <img
+                src="/assets/images/icon-reaction.svg"
+                alt="reaction image"
+                class="reaction-img"
+              />
+              Reaction
+            </div>
+            <div class="right-container"><span class="span1">80 </span><span class="span2"> / 100</span></div>
+          </div>
+          <div class="container memory">
+            <div class="left-container">
+            <img
+              src="/assets/images/icon-memory.svg"
+              alt="memory image"
+              class="memory-img"
+            />
+            Memory
+          </div>
+          <div class="right-container"><span class="span1">92 </span><span class="span2"> / 100</span></div>
+          </div>
+          <div class="container verbal">
+            <div class="left-container">
+            <img
+              src="/assets/images/icon-verbal.svg"
+              alt="verbal image"
+              class="verbal-img"
+            />
+            Verbal
+          </div>
+          <div class="right-container"><span class="span1">61 </span><span class="span2"> /100</span></div>
+          </div>
+          <div class="container visual">
+            <div class="left-container">
+            <img
+              src="/assets/images/icon-visual.svg"
+              alt="visual image"
+              class="visual-img"
+            />
+            Visual
+          </div>
+          <div class="right-container"><span class="span1">72 </span><span class="span2">/ 100</span></div>
+          </div>
+        </div>
+        <div class="btn">
+          <button><span id="continue">Continue</span></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
